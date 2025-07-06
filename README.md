@@ -31,12 +31,17 @@ pip install -r requirements.txt
  python main.py
 
 The script will:
+
 -Automatically download the MNIST dataset if not present
+
 -Train the CNN model for a predefined number of epochs
+
 -Evaluate the model on the test set
+
 -Print training and test accuracy metrics
 
 -Optional: GPU Training
+
  If you have a CUDA-enabled GPU, PyTorch will automatically use it to speed up training.
 
 ## Result
@@ -58,5 +63,6 @@ The script will:
 ## Author 
 
 -Adish Pandya
+
 Feel free to reach out for questions or collaboration!
 
